@@ -13,6 +13,7 @@ services:
       VERSION: "1.20.1"
       MEMORY: "8G"
       FORGE_INSTALLER: "forge-1.20.1-47.3.22-installer.jar"
+      LEVEL_TYPE: "lostcities"
     volumes:
       - /home/administrator/servers/server_mods/Minecraft:/data
     restart: unless-stopped
